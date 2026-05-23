@@ -52,7 +52,7 @@ table {
   line-height: 1.5em;
   color: #ffffff;
   background-color: #000000;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 #main {
@@ -71,6 +71,11 @@ a {
 a:hover {
   text-decoration: none;
   border-bottom: 1px solid #60a5fa;
+}
+
+.socials i {
+  font-size: 1.3em;
+  color: white;
 }
 
 i {
@@ -128,11 +133,11 @@ h2 {
   font-size: 1.6em;
   line-height: 2.4em;
   margin-top: 0.5em;
-  color: #6b6b7b;
+  color: #888888;
 }
 
 .selected h2 {
-  color: #e4e4e7;
+  color: #ffffff;
 }
 
 .button {
@@ -140,9 +145,9 @@ h2 {
   cursor: pointer;
   border: none;
   background: none;
-  color: #9b9b9b;
+  color: #707070;
   font-size: 1.6em;
-  font-weight: 100;
+  font-weight: 300;
   font-family: 'Diatype', 'Asap', roboto, sans-serif;
   line-height: 2.4em;
   margin-top: 0.5em;
@@ -152,7 +157,7 @@ h2 {
 }
 
 .button:hover {
-  color: #e4e4e7;
+  color: #ffffff;
 }
 
 .button:active,
@@ -194,7 +199,7 @@ h2 {
 .list-item p.date {
   display: inline-block;
   width: 3em;
-  color: #6b6b7b;
+  color: #b3b3b3;
 }
 
 /**************************************************/
@@ -237,7 +242,7 @@ h2 {
 }
 
 .toggle-button a {
-  color: #6b6b7b;
+  color: #5e5e5e;
 }
 
 .toggle-button a:hover {
@@ -278,7 +283,7 @@ h3 {
 }
 
 h3 a {
-  color: #e4e4e7;
+  color: #ffffff;
 }
 
 h3 a:hover {
@@ -292,7 +297,7 @@ h3 a:hover {
 .publication p {
   font-size: 1em;
   line-height: 1.5em;
-  color: #8b8b9b;
+  color: #b3b3b3;
 }
 
 .project-description {
@@ -302,14 +307,14 @@ h3 a:hover {
 
 /**************************************************/
 /* Archive details */
-.archive p {
-  color: #8b8b9b;
+.projects p {
+  color: #ffffff;
 }
 /**************************************************/
 /* Subtle footer at the bottom of the page. */
 
 #footer {
-  color: #6b6b7b;
+  color: #b3b3b3;
   position: absolute;
   bottom: 0;
   line-height: 2.5em;
