@@ -63,12 +63,6 @@ table {
   padding-bottom: 5em; 
 }
 
-#footer {
-  position: relative;
-  bottom: auto;
-  margin-top: 2em;
-}
-
 a {
   text-decoration: none;
   color: #60a5fa;
@@ -319,4 +313,6 @@ h3 a:hover {
   position: absolute;
   bottom: 0;
   line-height: 2.5em;
+  text-align: center;
+  width: 100%;
 }
